@@ -24,9 +24,13 @@ This static site generator can be used if you I just want to be able to share yo
 4. Now you will have the pure HTML pages returned in the html folder which you can then upload to your website eg via FTP.
 
 still.py
+
 photos/
+
 ├─ 20240608 - Greece/
+
 ├─ 20240701 - Italy/
+
 html/
 
 # Contribution
