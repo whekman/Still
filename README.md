@@ -3,6 +3,8 @@
 
 Still is a Python based static photo website generator that builds a pure HTML/CSS based hierarchical overview of your photos, optimally resizes and copyrights your photos, and removes sensitive metadata (EXIF).
 
+For an example see: https://willemhekman.nl/albums.html
+
 # Why
 
 Most of us would like to share our photos with friends and family in a convenient way and rely on 3rd party services/social media to do so (eg Google Photos, Instagram). While these services work they abstract away many details and for example in some cases reduce the photo quality (Google Photos) --- if you want to share the original high resolution file you'll have to go through some tedious steps.
