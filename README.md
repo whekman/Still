@@ -5,9 +5,19 @@ Still is a Python based static photo website generator that builds a pure HTML/C
 
 # Why
 
-Most of us would like to share our photos with friends and family in a convenient way but are now forced to use 3rd party services to do so (eg Google Photos). While these services work they force you to use at times unnecessarily complicated API's.
+Most of us would like to share our photos with friends and family in a convenient way and rely on 3rd party services/social media to do so (eg Google Photos, Instagram). While these services work they abstract away many details and for example in some cases reduce the photo quality (Google Photos) --- if you want to share the original high resolution file you'll have to go through some tedious steps.
 
-If you just want to create a clear and effective website section to host your photos, and you have access to a webserver to do so then Still might be just what you are looking for. 
+This static site generator can be used if you I just want to be able to share your (original or resized) photos via a plain website and was inspired by the work/website of Phil Greenspun.
+
+Basically, you put your photos into folders --- each folder makes a photo album --- then you run the generator script to have returned pure HTML pages that render your photo albums.
+
+Working Directory:
+
+photos/
+├─ 20240608 - Greece/
+├─ 20240701 - Italy/
+still.py
+html/
 
 # Quick Start
 
