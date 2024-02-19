@@ -1,9 +1,13 @@
 
 # Still
 
-Still is a Python based static photo website generator that builds a pure HTML/CSS based hierarchical overview of your photos, optimally resizes and copyrights your photos, and removes sensitive metadata (EXIF).
+Still is a Python based static photo website generator that
+- generates a pure HTML/CSS webpage giving an overview of your photos
+- generates a page for each photo that allows you to click through to the next photo
+- optionally resizes and copyrights your photos
+- removes sensitive metadata (EXIF).
 
-For an example see: https://willemhekman.nl/albums.html
+I developed Still to share my own photo-albums; for an example see: https://willemhekman.nl/albums.html
 
 # Why
 
@@ -11,19 +15,19 @@ Most of us would like to share our photos with friends and family in a convenien
 
 This static site generator can be used if you I just want to be able to share your (original or resized) photos via a plain website and was inspired by the work/website of Phil Greenspun.
 
-Basically, you put your photos into folders --- each folder makes a photo album --- then you run the generator script to have returned pure HTML pages that render your photo albums.
+# Quick Start
 
-Working Directory:
+1. Put your photos into folders like you usually do --- each folder makes a photo album.
+2. Clone this repo and put the static site generator script file just outside your photos directory.
+3. Optionally set the constants in settings.py to set if/how to resize the photos.
+3. Run the generator using "python still.py"
+4. Now you will have the pure HTML pages returned in the html folder which you can then upload to your website eg via FTP.
 
+still.py
 photos/
 ├─ 20240608 - Greece/
 ├─ 20240701 - Italy/
-still.py
 html/
-
-# Quick Start
-
-Clone the repo and place your photo albums in the appropriate folder. Then follow the instructions in the main Jupyter Notebook to set the global variables needed to resize and copyright your photos. Run the main function to generate your hierachical website section.
 
 # Contribution
 
@@ -32,5 +36,5 @@ Clone the repo and place your photo albums in the appropriate folder. Then follo
 
 # Credits
 
-Thanks Philip Greenspun for the original inspiration for this project and his inspiring articles on various topics.
+Thanks Philip Greenspun http://philip.greenspun.com/ for the original inspiration and inspiring articles on various topics.
 
